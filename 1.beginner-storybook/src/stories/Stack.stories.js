@@ -26,7 +26,7 @@ const Template = ({ numberOfChildren, ...args }) => (
     ))}
   </Stack>
 );
-
+   
 export const Horizontal = Template.bind({});
 Horizontal.args = {
   direction: "row",
